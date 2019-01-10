@@ -1,0 +1,226 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+
+@media screen and (max-width: 596px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 16px !important;
+  }
+  h3 {
+    font-size: 24px !important;
+  }
+  h4 {
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  p {
+    font-size: 14px !important;
+  }
+}
+
+hr {
+  color: #ddd;
+  border-top: 1px solid #ccc;
+  border-bottom: 0;
+}
+
+// Body Styles
+body,
+html,
+.body {
+  background: #fff !important;
+}
+
+* {
+  hyphens: none;
+}
+
+.container.header {
+  background: #fff;
+}
+
+p.headline {
+  font-weight: bold;
+}
+
+
+img.logo {
+  width: 200px;
+  height: auto;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    width: 100px !important;
+    margin: auto !important;
+  }
+}
+
+img.link-icon {
+  margin: auto;
+  max-width: 60%;
+}
+
+img.learn-more {
+  width: 300px !important;
+  height: auto;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    width: 300px !important;
+  }
+}
+
+img.learn-more-outline {
+  width: 200px !important;
+  height: auto;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    width: 150px !important;
+  }
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #fff;
+}
+
+.hero {
+  background: #30cdd1;
+  color: #fff;
+}
+
+.subhero {
+  background: #2f4057;
+
+  img.covered-large {
+    display: block;
+    max-width: 90%;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        display: none !important;
+    }
+  }
+  img.covered-small {
+    display: none;
+    max-width: 90%;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        display: block !important;
+    }
+  }
+}
+
+.receipt {
+  background: #f6f9f9;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #686868;
+  padding-top: 25px;
+  font-size: 12px;
+}
+
+.header a {
+  color: #686868;
+  text-decoration: underline;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+.hero .container {
+  background: transparent;
+  color: #fff;
+  margin: 100px auto;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+      margin: 60px auto !important;
+  }
+
+  h1 {
+    color: #fff;
+    line-height: 1.2;
+    padding-bottom: 0.5em;
+    max-width: 90%;
+    margin: auto;
+  }
+  h2 {
+    color: #fff;
+    line-height: 1.2;
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: bold;
+}
+
+.receipt .container {
+  background: transparent;
+}
+
+.welcome .container {
+  margin: 60px auto 30px;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+      margin: 30px auto 20px !important;
+  }
+}
+
+.links .container {
+  margin: 60px auto;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+      margin: 40px auto !important;
+  }
+  img.float-right {
+
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        float: none;
+    }
+  }
+}
+
+.subhero .container {
+  background: transparent;
+  margin: 80px auto;
+}
+
+.footer .container {
+  background: transparent;
+  margin: 70px auto;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+      margin: 50px auto !important;
+  }
+}
+
+
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
